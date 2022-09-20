@@ -11,19 +11,21 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1>
-          Bem vindo a o DestinyMC
+          Bem vindo a {<a href="https://destinymc.me" className={styles.DestinyMC}>DestinyMC</a>}
         </h1>
 
         <p className={styles.description}>
           Esse site esta em construção.
         </p>
-        
+
       </main>
 
       <footer className={styles.footer}>
-        <a>
-          Powered by{'destinyorg.me'}
-        </a>
+        <div className={styles.powered}>
+          <a href="https://orgdestiny.me">
+          © 2022 Destiny Developers Team
+          </a>
+        </div>
       </footer>
     </div>
   )

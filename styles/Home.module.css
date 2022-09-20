@@ -3,7 +3,7 @@
 }
 
 .main {
-  min-height: 100vh;
+  min-height: 80vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -12,11 +12,19 @@
   align-items: center;
 }
 
+.main h1 {
+  color: #5198d3
+}
+
+.DestinyMC {
+  color: #d9eeff
+}
+
 .footer {
   display: flex;
   flex: 1;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  border-top: 5px solid #5198d3;
   justify-content: center;
   align-items: center;
 }
@@ -28,46 +36,29 @@
   flex-grow: 1;
 }
 
-.title a {
-  color: #0070f3;
+.powered a {
+  color: #5198d3;
   text-decoration: none;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
+.powered a:hover,
+.powered a:focus,
+.powered a:active {
+  color: aqua;
+  text-decoration: solid;
 }
 
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title,
+.powered,
 .description {
   text-align: center;
+  align-items: center;
 }
 
 .description {
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
-}
-
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
+  color: #5198d3;
 }
 
 @media (max-width: 600px) {
